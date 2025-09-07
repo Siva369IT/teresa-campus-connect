@@ -232,7 +232,7 @@ const Index = () => {
                 Nurturing young minds with quality CBSE education, 
                 holistic development, and moral values since establishment.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center animate-scale-in delay-500">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center animate-scale-in delay-500 pt-4">
                 <Button size="lg" className="btn-hero">
                   <Users className="mr-2 w-5 h-5" />
                   Explore Admissions
@@ -349,8 +349,8 @@ const Index = () => {
                       </div>
                     </div>
                   </div>
-                  <CardHeader>
-                    <CardTitle className="text-gradient-primary">{facility.title}</CardTitle>
+                  <CardHeader className="pb-4">
+                    <CardTitle className="text-gradient-primary text-lg leading-relaxed min-h-[3rem] flex items-center">{facility.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <CardDescription className="text-base">
@@ -613,7 +613,7 @@ const Index = () => {
 
       {/* Enhanced Footer */}
       <footer className="bg-gradient-hero text-primary-foreground">
-        <div className="container-custom py-16">
+        <div className="container-custom py-16 px-8 md:px-12 lg:px-16">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* School Information */}
             <div className="lg:col-span-2 animate-on-scroll">
@@ -723,7 +723,7 @@ const Index = () => {
 
         {/* Copyright */}
         <div className="border-t border-primary-foreground/20">
-          <div className="container-custom py-6">
+          <div className="container-custom py-6 px-8 md:px-12 lg:px-16">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
               <p className="text-primary-foreground/70 text-sm">
                 © 2024 Mother Teresa High School. All rights reserved.
